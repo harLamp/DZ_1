@@ -14,6 +14,7 @@ public class task_3 {
       num2 = iScanner.nextDouble();
       System.out.print("\nВведите оператор (+, -, *, /): ");
       op = iScanner.next().charAt(0);
+      iScanner.close();
       switch(op) {
          case '+': ans = num1 + num2; 
             break;
@@ -28,6 +29,7 @@ public class task_3 {
         }
     System.out.print("\nРезультат получается следующим образом:\n");
     System.out.printf(num1 + " " + op + " " + num2 + " = " + ans);
+    
    }
 }
     
