@@ -9,6 +9,7 @@ public class task_1 {
     Scanner iScanner = new Scanner(System.in);
     System.out.printf("n: ");
     int n = iScanner.nextInt();
+    iScanner.close();
     for (int i = 1;i <= n; i++) {
         if (i != n) {
             System.out.print(i + "+");
@@ -17,6 +18,5 @@ public class task_1 {
         }
     }
     System.out.print(n*(n+1)/2);
-    iScanner.close();
- }
+    }
 }
